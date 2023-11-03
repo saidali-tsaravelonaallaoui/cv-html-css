@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42em;
+    background-image: url(img/bg.jpg);
+    color: rgb(49, 33, 166);
+    font-family: 'Fira Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h2,
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(6, 10, 9);
+
+}
+
+a {
+    font-size: 20px;
+    color: rgb(51, 115, 102);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.section_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.info {
+    display: flex;
+}
+
+.img1 {
+    max-width: 100%;
+}
+
+
+.competences {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+}
